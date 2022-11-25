@@ -13,3 +13,4 @@ Console.Write("AREA:");
 Console.WriteLine(rUno.calcolaArea(rUno.baseRettangolo, rUno.altezzaRettangolo));
 
 rUno.stampaRettangolo();
+rUno.discegnaRettangolo();
