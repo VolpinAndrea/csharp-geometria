@@ -19,5 +19,14 @@ namespace Geometria
         {
             return 2*(baseR + altezzaR);
         }
+        public void stampaRettangolo()
+        {
+            Console.WriteLine("---------------");
+            Console.WriteLine("Base: " + baseRettangolo +" cm");
+            Console.WriteLine("Altezza: " + altezzaRettangolo + " cm");
+            Console.WriteLine("Perimetro: " + calcolaPerimetro(baseRettangolo, altezzaRettangolo) + " cm");
+            Console.WriteLine("Area:  " + calcolaArea(baseRettangolo, altezzaRettangolo) + " cm²");
+            Console.WriteLine("---------------");
+        }
     }
 }

@@ -7,7 +7,9 @@ rUno.altezzaRettangolo = int.Parse(Console.ReadLine());
 Console.WriteLine("Inserisci la base del rettangolo");
 rUno.baseRettangolo = int.Parse(Console.ReadLine());
 
-Console.WriteLine("PERIMETRO:");
+Console.Write("PERIMETRO:");
 Console.WriteLine(rUno.calcolaPerimetro(rUno.baseRettangolo, rUno.altezzaRettangolo));
-Console.WriteLine("AREA:");
+Console.Write("AREA:");
 Console.WriteLine(rUno.calcolaArea(rUno.baseRettangolo, rUno.altezzaRettangolo));
+
+rUno.stampaRettangolo();
